@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" width="100%" height="100%">
+  <rect width="900" height="550" fill="#0b0f19" rx="10"/>
+  <rect x="25" y="20" width="850" height="50" fill="#131b2e" stroke="#1e2c4a" rx="6"/>
+  <circle cx="50" cy="45" r="6" fill="#f87171"/>
+  <circle cx="70" cy="45" r="6" fill="#fbbf24"/>
+  <circle cx="90" cy="45" r="6" fill="#34d399"/>
+  <text x="120" y="50" fill="#38bdf8" font-family="sans-serif" font-size="16" font-weight="bold">EncapsulationForge Pro — Spacecraft Encapsulation Studio</text>
+  <text x="730" y="50" fill="#34d399" font-family="sans-serif" font-size="12">● 10/10 PASS</text>
+
+  <!-- Left: Assembler Panel -->
+  <rect x="25" y="90" width="410" height="230" fill="#131b2e" stroke="#1e2c4a" rx="8"/>
+  <text x="45" y="120" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="bold">⚙️ Encapsulation Packet Assembler</text>
+  <rect x="45" y="135" width="370" height="165" fill="#070b14" stroke="#1e2c4a" rx="4"/>
+  <text x="60" y="160" fill="#60a5fa" font-family="monospace" font-size="11">Protocol: DTN Bundle Protocol v7 (EPI=0x85)</text>
+  <text x="60" y="180" fill="#f1f5f9" font-family="monospace" font-size="11">Header: 4 Octets (PLFL=2, 16-bit Length)</text>
+  <text x="60" y="200" fill="#34d399" font-family="monospace" font-size="11">PVN: 111b (Decimal 7) | CRC: CRC-16 (X.25)</text>
+  <text x="60" y="220" fill="#818cf8" font-family="monospace" font-size="11">Total Packet: 72 Octets | Payload: 66 Octets</text>
+  <text x="60" y="240" fill="#94a3b8" font-family="monospace" font-size="11">Payload: CCSDS_ENCAPSULATION_PACKET...</text>
+  <text x="60" y="260" fill="#a78bfa" font-family="monospace" font-size="11">Header Hex: E8 85 00 48</text>
+
+  <!-- Right: Hex Dissector Panel -->
+  <rect x="465" y="90" width="410" height="230" fill="#131b2e" stroke="#1e2c4a" rx="8"/>
+  <text x="485" y="120" fill="#818cf8" font-family="sans-serif" font-size="14" font-weight="bold">🔍 Bit-Level Hex Dissector</text>
+  <rect x="485" y="135" width="370" height="165" fill="#070b14" stroke="#818cf8" stroke-dasharray="4" rx="4"/>
+  <text x="500" y="160" fill="#38bdf8" font-family="monospace" font-size="11">E8 85 00 48 43 43 53 44 53 5F 45 4E 43</text>
+  <text x="500" y="180" fill="#34d399" font-family="monospace" font-size="11">41 50 53 55 4C 41 54 49 4F 4E 5F 50 41</text>
+  <text x="500" y="200" fill="#34d399" font-family="monospace" font-size="11">43 4B 45 54 3A 20 54 45 4C 45 4D 45 54</text>
+  <text x="500" y="220" fill="#34d399" font-family="monospace" font-size="11">52 59 5F 53 54 52 45 41 4D 5F 49 44 3D</text>
+  <text x="500" y="240" fill="#f1f5f9" font-family="monospace" font-size="11">34 32 2C 20 53 54 41 54 55 53 3D 41 43</text>
+  <text x="500" y="260" fill="#a78bfa" font-family="monospace" font-size="11">54 49 56 45 6B 8A</text>
+
+  <!-- Bottom: Audit Scorecard -->
+  <rect x="25" y="340" width="850" height="180" fill="#131b2e" stroke="#1e2c4a" rx="8"/>
+  <text x="45" y="370" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="bold">🛡️ 10-Point Normative Auditor — 10/10 Normative Rules Compliant (100% PASS)</text>
+  
+  <rect x="45" y="390" width="250" height="55" fill="#070b14" stroke="#1e2c4a" rx="4"/>
+  <text x="60" y="415" fill="#38bdf8" font-family="monospace" font-size="12">ENC-001: PVN=7</text>
+  <text x="60" y="435" fill="#34d399" font-family="sans-serif" font-size="11">✓ PASS (PVN=111b Verified)</text>
+
+  <rect x="325" y="390" width="250" height="55" fill="#070b14" stroke="#1e2c4a" rx="4"/>
+  <text x="340" y="415" fill="#38bdf8" font-family="monospace" font-size="12">ENC-003: Protocol EPI</text>
+  <text x="340" y="435" fill="#34d399" font-family="sans-serif" font-size="11">✓ PASS (DTN BPv7 0x85 Mapped)</text>
+
+  <rect x="605" y="390" width="250" height="55" fill="#070b14" stroke="#1e2c4a" rx="4"/>
+  <text x="620" y="415" fill="#38bdf8" font-family="monospace" font-size="12">ENC-007: CRC Checksum</text>
+  <text x="620" y="435" fill="#34d399" font-family="sans-serif" font-size="11">✓ PASS (CRC-16 X.25 Checksum)</text>
+
+  <text x="45" y="485" fill="#94a3b8" font-family="monospace" font-size="12">Encapsulation Service | Variable 1/2/4/8B Headers | Multi-Protocol Multiplexing | CRC-16 / CRC-32C</text>
+</svg>
